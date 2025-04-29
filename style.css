@@ -19,7 +19,8 @@ body h1 {
 .slide-fotos {
     position: relative;
     border: 1px solid #e1aaff;
-    width: 384.47px;
+    width: 100%;
+    max-width: 384.47px;
     height: 512.63px;
     border-radius: .375rem;
     margin: 0 auto;
