@@ -21,7 +21,7 @@ function atualizarContador() {
 atualizarContador();
 setInterval(atualizarContador, 1000);
 
-const imagens = ["./assets/img1.JPG", "./assets/img2.jpg", "./assets/img3.jpg", "./assets/img4.jpg", "./assets/img5.JPG", "./assets/img6.JPG", "./assets/img7.jpg", "./assets/img8.jpg", "./assets/img9.jpg", "./assets/img10.jpg", "./assets/img11.jpg", "./assets/img12.jpg", "./assets/img13.jpg", "./assets/img14.jpg", "./assets/img15.jpg", "./assets/img16.jpg", "./assets/img17.jpg"];
+const imagens = ["./assets/img1.JPG", "./assets/img2.jpg", "./assets/img3.jpg", "./assets/img4.jpg", "./assets/img5.JPG", "./assets/img6.JPG", "./assets/img7.jpg", "./assets/img8.jpg", "./assets/img9.jpg", "./assets/img10.jpg", "./assets/img11.jpg", "./assets/img12.jpg", "./assets/img13.jpg", "./assets/img14.jpg", "./assets/img15.JPG", "./assets/img16.JPG", "./assets/img17.JPG"];
 let indice = 0;
 
 function mostrarFoto() {
