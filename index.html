@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18 ANOS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="cabecalho">
+       <h1>
+        18 ANOS DO TUCO
+       </h1> 
+    </div>   
+
+    <div class="slide-fotos"> 
+        <img id="slide" src="/assets/img1.JPG" alt="Foto 1">
+        <button id="nav-left" onclick="voltarFoto()"><ion-icon name="arrow-back-circle-outline"></ion-icon></button>
+        <button id="nav-right" onclick="avancarFoto()"><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>        
+    </div>
+    <div id="contador">
+        <p> Tempito Juntos: </p>
+        <p id="timer"></p>
+    </div>
+    <div id="mensagem">
+        <div id="barra"></div>
+    <a class="link" href="/assets/textinho.pdf" download>Clica aqui pra ver seu textinho <ion-icon name="heart-outline"></ion-icon> </a>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

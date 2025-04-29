@@ -1,0 +1,105 @@
+body {
+    background-color: #3a2f4d;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    color: #f2f2f2;
+}
+
+body h1 {
+    text-align: center;
+    padding: 12px;
+
+}
+
+.slide-fotos {
+    position: relative;
+    border: 1px solid #e1aaff;
+    width: 384.47px;
+    height: 512.63px;
+    border-radius: .375rem;
+    margin: 0 auto;
+}
+
+.slide-fotos #slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .375rem;
+}
+
+#nav-right, #nav-left {
+    transition: opacity 0.5 ease;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    user-select: none;
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
+    
+}
+
+#nav-left {
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background 0.3s;
+}
+
+.slide-fotos:hover #nav-left, .slide-fotos:hover #nav-right  {
+    opacity: 1;
+
+}  
+
+#nav-right {
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background 0.3s;
+}
+
+#nav-left:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#nav-right:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+  
+body #contador {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#mensagem #barra {
+    border: 1px solid #f2f2f2;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+#mensagem .link {
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+}
